@@ -1,0 +1,6 @@
+http --form POST https://api.evasrv.com/email_validate/ \
+  cache-control:no-cache \
+  content-type:application/x-www-form-urlencoded \
+  email=test@domain.com \
+  user_API_token=YOUR-EV-API-TOKEN \
+  =''
