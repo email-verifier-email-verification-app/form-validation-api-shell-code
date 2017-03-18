@@ -1,0 +1,5 @@
+curl --request POST \
+  --url https://api.evasrv.com/email_validate/ \
+  --header 'cache-control: no-cache' \
+  --header 'content-type: application/x-www-form-urlencoded' \
+  --data 'email=test%40domain.com&user_API_token=YOUR-EV-API-TOKEN&='
